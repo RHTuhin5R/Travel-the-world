@@ -4,19 +4,25 @@
     font-family: 'Mulish', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.part1{
+
+main,
+header {
+    margin: 0px 135px 0px;
+}
+
+.part1 {
     display: flex;
-    margin-top: 0;
+
 }
 
 .img1 {
-  
+
     width: 48px;
     height: 56.008px;
     flex-shrink: 0;
-    margin-top: 30px;
-    
-    
+
+
+
 }
 
 .travel {
@@ -27,7 +33,8 @@
     font-weight: 800;
     line-height: normal;
     padding-left: 15px;
-    
+    margin-top: 5px;
+
 }
 
 .the {
@@ -37,4 +44,548 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+
+.first-ul {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* first banner */
+.bg1 {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ .png");
+    width: 1170px;
+    min-height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 49px;
+    align-items: center;
+}
+
+
+.world {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+    padding-top: 106px;
+
+}
+
+.dolar {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 42.25rem;
+    margin-left: 247px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.all-input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.i1 {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+/* bannner 2 */
+.bg2 {
+    display: flex;
+    width: 1170px;
+    min-height: 550px;
+    flex-shrink: 0;
+    margin-top: 100px;
+
+}
+
+.side1 {
+    max-width: 577px;
+    margin-right: 53px;
+}
+
+.side2 {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+}
+
+.our {
+    color: #131318;
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.p1 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+/* banner 3 all image section*/
+.bg3 {
+    margin-top: 100px;
+    width: 1170px;
+    min-height: 770px;
+}
+
+.choose {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+
+}
+
+.p2 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.bg3-img {
+    gap: 24px;
+}
+
+.section1 {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.sub-section1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+    border-radius: 16px;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+
+}
+
+.sub-section2 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 8.png"), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    border-radius: 16px;
+    width: 573px;
+    height: 300px;
+}
+
+.m1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 125px;
+
+}
+
+.section2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.sub-section3 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+    width: 374px;
+    height: 286px;
+}
+
+.sub-section4 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+    width: 474px;
+    height: 286px;
+}
+
+.sub-section5 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+    width: 274px;
+    height: 286px;
+}
+
+.section3 {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.sub-section6 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+    width: 473px;
+    height: 300px;
+}
+
+.sub-section7 {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+    width: 673px;
+    height: 300px;
+}
+
+/* banner 4 */
+.bg4 {
+    margin-top: 100px;
+    width: 1170px;
+    min-height: 700px;
+
+}
+
+.why {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.set {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.column2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.col1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 32px;
+    padding-top: 32px;
+
+}
+
+.col2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 32px;
+    padding-top: 32px;
+
+}
+
+.img2 {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.hand {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.art {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 486px;
+    ;
+}
+
+.column3 {
+    margin-top: 24px;
+}
+
+.col3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-left: 298px;
+}
+
+/* bannner 6 */
+.bg5 {
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+    width: 1170px;
+    min-width: 422px;
+    background: #FFF;
+}
+
+.first-column {
+    width: 474px;
+    height: 422px;
+    background: #FFF;
+    border-radius: 16px;
+    padding-left: 40px;
+    border: 1px solid tomato;
+}
+
+.news {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.get {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0px;
+    max-width: 350px;
+}
+
+hr {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-left: 0px;
+    margin-top: 24px;
+
+}
+
+.form-int {
+    margin-top: 24px;
+}
+
+.form-int>input {
+    display: block;
+
+}
+
+.int {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 16px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+}
+
+.sub {
+    width: 398px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+    border: none;
+}
+
+.second-column {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 696px;
+    height: 422px;
+    border-radius: 16px;
+    background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+}
+
+.save {
+    width: 324px;
+    height: 120px;
+    transform: translate(-6px, -47px) rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.com {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.up {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 4px;
+}
+
+/* footer section */
+footer {
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.part2 {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.footer-title {
+    padding-top: 15px;
+}
+
+.far {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 769px;
+    margin-top: 0px;
+
+}
+
+.hr2 {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: 50px;
+}
+
+.logo {
+    width: 174.322px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+.hr3 {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 50px;
+    margin-left: 270px;
+
+}
+.copyright{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px; 
 }
