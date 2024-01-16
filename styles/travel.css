@@ -795,8 +795,8 @@ footer {
 
     .save {
         width: 13.28rem;
-    transform: translate(-9px, -28px) rotate(-19.628deg);
-   
+        transform: translate(-9px, -28px) rotate(-19.628deg);
+
     }
 
     .com {
@@ -813,5 +813,46 @@ footer {
         font-family: Mulish;
         font-size: 21.138px;
         font-weight: 800;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 16px;
+        width: 34.37rem;
+        height: auto;
+
+       
+    }
+    .footer{
+        padding-left: 100px;
+    }
+
+    .part2 {
+        padding-top: 32.5px;
+    }
+
+    .far {
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        max-width: 17.93rem;
+    }
+    .hr2{
+        display: none;
+    }
+    .hr3{
+        margin-top: 24px;
+        width: 15rem;
+        height: 1px;
+        margin-left:100px;
+        margin-bottom: 0px;
+    }
+    .copyright{
+        margin-top: 24px;
     }
 }
